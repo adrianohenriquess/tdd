@@ -1,6 +1,8 @@
 from codigo.bytebank import Funcionario
 import pytest
 from pytest import mark
+#gerar relatorio de cobertura m html
+# pytest --cov=codigo tests/ --cov-report html
 
 class TestClass:
     def test_quando_idade_recebe_13_03_2000_deve_retornar_23(self):
